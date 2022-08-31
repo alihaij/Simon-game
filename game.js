@@ -56,7 +56,7 @@ function checkAnswer(currentLevel) {
 
   } else {
     playSound("wrong");
-    $("body").addClass("background-color","red");
+    $("body").css("background-color","red");
     $("h1").text("Game Over, Press Any Key to Restart")
 
     setTimeout(function() {
